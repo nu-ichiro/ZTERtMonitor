@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D06FD7F298520340064BE3F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5D06FD7E298520340064BE3F /* README.md */; };
 		5DC99FFC2980778A0047459C /* ZTERtMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC99FFB2980778A0047459C /* ZTERtMonitorApp.swift */; };
 		5DC99FFE2980778A0047459C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC99FFD2980778A0047459C /* ContentView.swift */; };
 		5DC9A0002980778B0047459C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC99FFF2980778B0047459C /* Assets.xcassets */; };
 		5DC9A0032980778B0047459C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC9A0022980778B0047459C /* Preview Assets.xcassets */; };
+		5DD1DF5F298078AB0098FB20 /* ZTEAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1DF5D298078AB0098FB20 /* ZTEAPI.swift */; };
+		5DD1DF60298078AB0098FB20 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD1DF5E298078AB0098FB20 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D06FD7E298520340064BE3F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5DC99FF82980778A0047459C /* ZTERtMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTERtMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC99FFB2980778A0047459C /* ZTERtMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZTERtMonitorApp.swift; sourceTree = "<group>"; };
 		5DC99FFD2980778A0047459C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DC99FFF2980778B0047459C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC9A0022980778B0047459C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DC9A0042980778B0047459C /* ZTERtMonitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZTERtMonitor.entitlements; sourceTree = "<group>"; };
+		5DD1DF5D298078AB0098FB20 /* ZTEAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZTEAPI.swift; sourceTree = "<group>"; };
+		5DD1DF5E298078AB0098FB20 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 		5DC99FEF2980778A0047459C = {
 			isa = PBXGroup;
 			children = (
+				5D06FD7E298520340064BE3F /* README.md */,
 				5DC99FFA2980778A0047459C /* ZTERtMonitor */,
 				5DC99FF92980778A0047459C /* Products */,
 			);
@@ -52,6 +59,8 @@
 		5DC99FFA2980778A0047459C /* ZTERtMonitor */ = {
 			isa = PBXGroup;
 			children = (
+				5DD1DF5D298078AB0098FB20 /* ZTEAPI.swift */,
+				5DD1DF5E298078AB0098FB20 /* SettingsView.swift */,
 				5DC99FFB2980778A0047459C /* ZTERtMonitorApp.swift */,
 				5DC99FFD2980778A0047459C /* ContentView.swift */,
 				5DC99FFF2980778B0047459C /* Assets.xcassets */,
@@ -127,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D06FD7F298520340064BE3F /* README.md in Resources */,
 				5DC9A0032980778B0047459C /* Preview Assets.xcassets in Resources */,
 				5DC9A0002980778B0047459C /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD1DF5F298078AB0098FB20 /* ZTEAPI.swift in Sources */,
+				5DD1DF60298078AB0098FB20 /* SettingsView.swift in Sources */,
 				5DC99FFE2980778A0047459C /* ContentView.swift in Sources */,
 				5DC99FFC2980778A0047459C /* ZTERtMonitorApp.swift in Sources */,
 			);
@@ -272,6 +284,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZTERtMonitor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,6 +310,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ZTERtMonitor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
